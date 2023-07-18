@@ -47,7 +47,7 @@
 							</div>
 							<div class="inner">
 								<h2 id="aboutTitle">Hello World! My name is Nick Snyder and I am a software engineer.</h2>
-								<p id="aboutText">Thanks for checking out my page! After spending nearly 5 years in architecture, I decided to embark on a new adventure and pursue software engineering. I’ve spent the past six months at App Academy working 40+ hour weeks, often including weekends, to learn several new skills including: Python, JavaScript, React, SQL and Node, to name a few. Additionally, I’ve built three full stack web application clones, which can be found under the projects tab.</P>
+								<p id="aboutText">Thanks for checking out my page! After spending nearly 5 years in architecture, I decided to embark on a new adventure and pursue software engineering. I’ve spent the past six months at App Academy working 40+ hour weeks, often including weekends, to learn several new skills including: Python, JavaScript, React, Redux, SQL and Node, to name a few. Additionally, I’ve built three full stack web application clones, which can be found under the projects tab.</P>
 
 								<P id="aboutText">While I’m leaving architecture behind, I’m bringing a wealth of knowledge and incredible experiences along with me in this new pursuit.  From coordinating revisions between owner, contractor and consultant teams to refining design details to bring a client’s vision to life. I’ve only just started my journey as a developer, but I believe my background in architecture has already given me a leg up at App Academy. I have been able to complete the program without being deferred (held back for scoring less than 80% on any test or failing any project specs).</P>
 
@@ -66,7 +66,9 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Plantsy</h2>
-									<p id="projectText">Plantsy is my capstone project, completed as an App Academy student. In two weeks I created the first iteration of Plantsy, which is a clone of Etsy but with a plant theme. Plantsy’s first two features are item listings and the shopping cart. Additionally, I implemented some logic to randomly generate shipping dates and prices, along with a note on listings telling the user how many carts an item is in. I believe these small additions make the site feel more alive and actively used. I was excited to take on this project because it felt like the perfect opportunity to show off some of my personal design work through the seed data, in addition to my newly acquired coding skills. My future plans for this project include implementing the features: reviews, shops and transaction history.</p>
+									<p id="projectText">Plantsy is my capstone project, completed as an App Academy student. In two weeks I created the first iteration of Plantsy, which is a clone of Etsy but with a plant theme. Python, Flask and SQLAlchemy were used for the backend structure. The front end was created using React, Redux and vanilla CSS to style the site.</p>
+									<p id="projectText">Plantsy’s first two features are listings and the shopping cart. Additionally, I implemented logic to randomly generate shipping dates and prices, along with a note on listings telling the user how many carts an item is in. I believe these small additions make the site feel more alive and actively used. I was excited to take on this project because it felt like the perfect opportunity to show off some of my personal design work through the seed data (the temple planter listings), in addition to my newly acquired coding skills. </p>
+									<p id="projectText">Since submitting this project I have gone back and implemented the reviews and search features along with AWS for listing images. My future plans are to implement review images using AWS along with shops and transaction history.</p>
 									<ul class="actions">
 										<li><a target='_blank' href="https://plantsy-lm98.onrender.com/" class="button">visit</a></li>
 										<li><a target='_blank' href="https://github.com/snydernb1/plantsy" class="button">github</a></li>
@@ -79,24 +81,29 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Foxtrot</h2>
-									<p id="projectText">Hello, thanks for checking out our project! This is our second fullstack web application created as App Academy students. The project is a clone of Robinhood and uses Python, Flask and SQLAlchemy for the backend structure. The front end was created using JavaScript, React, Redux and vanilla CSS to style the site.</p>
-									<p id="projectText">Currently the app has functionality to authenticate users, add funds to a user account, buy/sell stock, view stock details, search for a stock, view/create/delete/edit a stock watchlist, view a user portfolio, and view a user's transaction history. The stock details page shows a graph of the stock's value over time; the user portfolio page shows a graph of the value of the user's stocks over time.</p>
+									<p id="projectText">Foxtrot is a full-stack web application created with two other students, Bret and Michael,  at App Academy. The project is a clone of Robinhood and uses Python, Flask and SQLAlchemy for the backend structure. The front end was created using React, Redux and vanilla CSS to style the site. We were given one week to create both the front and back ends of the project and have four functional features.</p>
+									<p id="projectText">Currently the app has functionality for stock transactions, stock watchlists, stock search and user portfolio. We used the chart.js library for all the stock graphs and implemented a news article api which displays current news articles related to the associated stock on the detail page.</p>
+									<p id="projectText">While we all worked cohesively on this project, I took more ownership of the search feature, backend routes and portfolio graph. The portfolio graph was particularly challenging due to our database structure and required several functions to organize the data from the transactions, stock and stock_history database tables prior to displaying it on the graph. </p>
 									<ul class="actions">
 										<li><a target='_blank' href="https://foxtrot.onrender.com/" class="button">visit</a></li>
 										<li><a target='_blank' href="https://github.com/bretrosen/robinhood_clone" class="button">github</a></li>
+										<li><a target='_blank' href="https://www.linkedin.com/in/bretrosen/" class="button">Bret</a></li>
+										<li><a target='_blank' href="https://www.linkedin.com/in/michael-swe/" class="button">Michael</a></li>
 									</ul>
 								</div>
 							</div>
 						</section>
 						<section>
-							<a target='_blank' href="https://aa-api-project.onrender.com/" class="image"><img src="newImages/rarebnb_gif.gif" alt="" data-position="25% 25%" /></a>
+							<a target='_blank' href="https://rarebnb-lymx.onrender.com/" class="image"><img src="newImages/rarebnb_gif.gif" alt="" data-position="25% 25%" /></a>
 							<div class="content">
 								<div class="inner">
 									<h2>Rarebnb</h2>
-									<p id="projectText">This is my first fullstack web application created as an App Academy student. The project is a clone of AirBnb and uses Express, Sequelize and PostgreSQL for the backend structure. The front end was created using React and Redux along with vanilla CSS to style the page.</p>
-									<p id="projectText">Currently the app has functionality to authenticate users and manage spots/reviews. My future plans are to add a bookings feature which is already integrated in the backend.</p>
+									<p id="projectText">Rarebnb was my first full-stack web application created as an App Academy student. The project was a clone of AirBnb and uses Express, Sequelize and PostgreSQL for the backend structure. The front end was created using React and Redux along with vanilla CSS to style the pages.</p>
+									<p id="projectText">The project was split into two phases, both with a timeline of one week to complete the given specifications. The first phase consisted entirely of backend development.  We were required to build out full crud routes for the features: spots, reviews, bookings and images. Postman was used extensively throughout the project week to test each route’s functionality and authentications. Phase two was focused on the front end. The project requirements entailed building components to enable full crud for the spots feature and partial crud for the reviews feature (GET / POST / DELETE). Additionally, we had to create components to authenticate users.</p>
+									<p id="projectText">Since the initial project due date, I have completed the EDIT crud for the reviews feature. I’ve also started working on the bookings feature, which is currently live with partial crud (GET / POST / DELETE). My future plans are to integrate a calendar component to display all dates a spot is booked and implement AWS for the images.
+									</p>
 									<ul class="actions">
-										<li><a target='_blank' href="https://aa-api-project.onrender.com/" class="button">visit</a></li>
+										<li><a target='_blank' href="https://rarebnb-lymx.onrender.com/" class="button">visit</a></li>
 										<li><a target='_blank' href="https://github.com/snydernb1/rarebnb" class="button">github</a></li>
 									</ul>
 								</div>
